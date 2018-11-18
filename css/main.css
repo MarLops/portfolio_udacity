@@ -1,0 +1,248 @@
+/* Import icon */
+@import url(http://weloveiconfonts.com/api/?family=brandico|typicons);
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+
+
+/* common */
+.left{
+  	float: left;
+  	display: block
+}
+
+.right{
+	float: right;
+}
+
+.inline{
+	display: inline-block;
+}
+
+
+.align{
+	text-align: center;
+}
+
+
+/* fonts */
+.fonta_1{
+	font-family: 'Merriweather','Arial', serif;
+	font-size: 20px;
+	background-color: #ffffcc
+}
+
+
+.fonta_2{
+	font-family: 'Raleway','Arial', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+
+.fonta_3{
+	font-family: 'Indie Flower','Arial', cursive;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.fonta_4{
+	color: blue;
+	
+}
+
+/*body */
+body {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+   background-color: #f2e6ff;
+}
+
+
+
+/*Container_1 and Container_2 */
+@media screen and (max-width: 940px) {
+	.delete{
+		display: none !important;
+		}
+
+	.C_1{
+		height: 3%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.C_2{
+		height: 97%;
+		width: 100%;
+	}
+
+	.Icone_direto{
+		margin-left: auto;
+		margin-right: auto;
+		width: 32%;
+		height: 100%;
+		display: inline-block;
+		min-height: 50px; 
+		min-width: 50px;
+		border-radius: 10px;
+	}
+
+}
+
+@media screen and (min-width: 941px){
+	.C_1{
+		box-sizing:border-box;
+		padding: 20px;
+		height: 100%;
+		width: 15%;
+		float: left;
+		display: inline-block;
+		}
+
+	.C_2{
+		height: 100%;
+		width: 80%;
+		display: inline-block;
+	}	
+
+	.Icone_direto{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding: 15px;
+		top: 10vh;
+		min-height: 50px;
+		border-radius: 10px;
+	}
+}
+
+
+
+
+
+
+
+/*Container_2 */
+header{
+	box-sizing: border-box;
+	width: 90%;
+	padding-bottom: 10px;
+	overflow: auto;
+	height: 10%;
+	width: 100%;	
+	border-bottom: 2px solid #ccd9ff;
+}
+
+
+
+.div_principal{
+	box-sizing: border-box;
+	width: 100%;
+	height: 50%;
+	padding: 10px; 
+	display: inline-block;
+	overflow: auto;
+	text-align: center;
+
+}
+
+.img_principal{
+	height: 40%;
+	width: 40%;
+}
+
+
+.Segunda_secao{
+	box-sizing: border-box;
+	width: 100%;
+	height: 10%;
+	padding: 5px; 
+}
+
+.Imagem_links{
+	box-sizing: border-box;
+	width: 100%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.Coluna{
+	box-sizing: border-box;
+	width: 32%;
+	height: 100%;
+	padding: 5px;
+	min-width: 150px;
+}
+
+
+
+
+
+
+/* links */
+@media screen and (min-width: 551px){
+	
+	.Coluna{
+	box-sizing: border-box;
+	width: 32%;
+	height: 100%;
+	padding: 5px;
+	min-width: 150px;
+	}
+
+	.Imagem_links{
+	box-sizing: border-box;
+	width: 100%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+  	flex-wrap: wrap;
+	}
+
+	.tamanho_min{
+		font-size: 30px;
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 550px){
+
+	.Coluna{
+		box-sizing: border-box;
+		width: 100%;
+		height: 20%;
+		padding: 5px;
+
+	}
+
+	.Imagem_links{
+		box-sizing: border-box;
+		width: 70%;
+		height: 30%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.tamanho_min{
+		font-size: 20px;
+	}
+}
+
+
+
